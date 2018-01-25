@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: "Amazing Chatting"
+  profiles:
+    active: "dev"
+

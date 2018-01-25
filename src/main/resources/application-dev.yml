@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/amazing_chatting"
+    driver-class-name: "org.postgresql.Driver"
+    username: "postgres"
+    password: "root"
+  jpa:
+    database-platform: "org.hibernate.dialect.PostgreSQL94Dialect"
+    show-sql: "true"
+    hibernate:
+      ddl-auto: "validate"
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        format_sql: "true"

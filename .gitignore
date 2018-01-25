@@ -1,0 +1,47 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+.idea
+.idea/workspace.xml
+*.iml
+target
+.classpath
+.project
+.settings
+.settings/
+bin/
+bin
+
+#React
+
+# dependencies
+src/main/frontend/node_modules
+
+#node
+src/main/frontend/node
+
+# testing
+src/main/frontend/coverage
+
+# production
+src/main/frontend/build
+
+# misc
+src/main/frontend/.DS_Store
+src/main/frontend/.env.local
+src/main/frontend/.env.development.local
+src/main/frontend/.env.test.local
+src/main/frontend/.env.production.local
+
+src/main/frontend/npm-debug.log*
+src/main/frontend/yarn-debug.log*
+src/main/frontend/yarn-error.log*
