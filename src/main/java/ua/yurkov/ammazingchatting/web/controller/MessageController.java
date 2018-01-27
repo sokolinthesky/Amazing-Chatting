@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2017 Tideworks Technology, Inc.
- */
-
 package ua.yurkov.ammazingchatting.web.controller;
 
 import org.modelmapper.ModelMapper;

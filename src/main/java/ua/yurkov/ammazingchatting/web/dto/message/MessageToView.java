@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2017 Tideworks Technology, Inc.
- */
-
 package ua.yurkov.ammazingchatting.web.dto.message;
 
 import java.util.UUID;

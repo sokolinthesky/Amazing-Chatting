@@ -1,6 +1,4 @@
-package ua.yurkov.ammazingchatting;/*
- * Copyright (c) 2017 Tideworks Technology, Inc.
- */
+package ua.yurkov.ammazingchatting;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

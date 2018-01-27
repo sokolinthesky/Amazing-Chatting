@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2017 Tideworks Technology, Inc.
- */
-
 package ua.yurkov.ammazingchatting.service.message;
 
 import org.slf4j.Logger;
