@@ -2,6 +2,12 @@ package ua.yurkov.ammazingchatting.service.validation;
 
 import java.util.Map;
 
+/**
+ * TODO: Change class description
+ *
+ * @author yevhenii yurkov
+ * @since 0.1.0
+ */
 public class ValidationException extends RuntimeException {
 
     private static final String MESSAGE = "%s is not valid. List of not valid fields: %s.";

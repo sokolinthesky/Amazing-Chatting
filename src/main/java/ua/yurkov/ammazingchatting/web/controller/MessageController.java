@@ -12,7 +12,6 @@ import ua.yurkov.ammazingchatting.service.message.MessageService;
 import ua.yurkov.ammazingchatting.web.dto.message.MessageToCreate;
 import ua.yurkov.ammazingchatting.web.dto.message.MessageToView;
 
-import java.net.URI;
 import java.util.List;
 import java.util.stream.Collectors;
 

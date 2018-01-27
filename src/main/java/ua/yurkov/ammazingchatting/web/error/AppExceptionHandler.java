@@ -10,7 +10,12 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 import ua.yurkov.ammazingchatting.service.AmazingChattingException;
 import ua.yurkov.ammazingchatting.service.validation.ValidationException;
 
-
+/**
+ * TODO: Change class description
+ *
+ * @author yevhenii yurkov
+ * @since 0.1.0
+ */
 @RestControllerAdvice
 public class AppExceptionHandler {
     private static final Logger LOG = LoggerFactory.getLogger(AppExceptionHandler.class);

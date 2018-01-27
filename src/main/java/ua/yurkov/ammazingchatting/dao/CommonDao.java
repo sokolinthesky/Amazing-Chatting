@@ -11,6 +11,12 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.function.Supplier;
 
+/**
+ * TODO: Change class description
+ *
+ * @author yevhenii yurkov
+ * @since 0.1.0
+ */
 public abstract class CommonDao<T, I> {
 
     protected EntityManager entityManager;

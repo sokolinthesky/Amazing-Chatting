@@ -6,6 +6,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
+/**
+ * TODO: Change class description
+ *
+ * @author yevhenii yurkov
+ * @since 0.1.0
+ */
 public abstract class Validator<T> {
 
     protected List<ValidationRule<T>> validationRules;
