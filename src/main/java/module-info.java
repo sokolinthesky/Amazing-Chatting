@@ -1,7 +1,7 @@
 module ua.yurkov.amazingchatting {
     //java
     requires java.xml;
-    requires java.xml.ws.annotation;
+    requires java.annotation;
 
     //jpa
     requires hibernate.jpa;
@@ -17,6 +17,9 @@ module ua.yurkov.amazingchatting {
     requires spring.data.jpa;
     requires spring.boot;
     requires spring.boot.autoconfigure;
+
+    //reactor
+    requires reactor.core;
 
     //logging
     requires slf4j.api;

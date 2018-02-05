@@ -1,6 +1,5 @@
 package ua.yurkov.ammazingchatting.service.validation;
 
-import javax.annotation.PostConstruct;
 
 /**
  * TODO: Change class description
@@ -10,7 +9,14 @@ import javax.annotation.PostConstruct;
  */
 public abstract class ValidatorInitializer {
 
-    @PostConstruct
+    public ValidatorInitializer() {
+        init();
+    }
+
+    /**
+     * There is no way to use @PostConstruct in JDK9, therefore we need to do it in constructor.
+     */
+    //@PostConstruct
     public void init() {
         initializeSpecificValidator();
     }
