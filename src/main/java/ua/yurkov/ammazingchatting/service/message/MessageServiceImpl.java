@@ -3,6 +3,7 @@ package ua.yurkov.ammazingchatting.service.message;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import ua.yurkov.ammazingchatting.dao.message.MessageDao;
 import ua.yurkov.ammazingchatting.model.Message;
 
@@ -26,6 +27,7 @@ public class MessageServiceImpl implements MessageService {
     }
 
     @Override
+    @Transactional
     public void sentMessage(Message message) {
         LOG.info("Message to sent: {}.", message);
         message.setId(UUID.randomUUID());
