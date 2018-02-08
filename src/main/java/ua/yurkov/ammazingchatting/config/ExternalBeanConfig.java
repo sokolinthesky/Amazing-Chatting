@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * TODO: Change class description
+ * Configuration for creating bean
  *
  * @author yevhenii.yurkov (yyurkov)
  * @since 0.10.0

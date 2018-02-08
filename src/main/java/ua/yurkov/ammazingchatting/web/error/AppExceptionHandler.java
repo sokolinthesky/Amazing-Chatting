@@ -11,7 +11,7 @@ import ua.yurkov.ammazingchatting.service.AmazingChattingException;
 import ua.yurkov.ammazingchatting.service.validation.ValidationException;
 
 /**
- * TODO: Change class description
+ * Main Exception Handler handles all exception is thrown by application.
  *
  * @author yevhenii yurkov
  * @since 0.1.0
