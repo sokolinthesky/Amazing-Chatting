@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2017 Tideworks Technology, Inc.
- */
-
 package ua.yurkov.ammazingchatting.dao.message;
 
 import org.springframework.stereotype.Repository;
